@@ -245,7 +245,7 @@
                     </div>
                     <div class="singel_about_left_inner pl-4">
                         <div class="button two">
-                            <a href="{{ route('about') }}">More Details</a>
+                            <a href="{{route('about')}}">More Details</a>
                         </div>
                     </div>
                 </div>
@@ -384,7 +384,7 @@
                         </div>
                         <div class="section_main_title">
                             <h1>Some Glimpse
-                                <div> Of Passion</div>
+                                <div> Of Siddhartha</div>
                             </h1>
                         </div>
 

@@ -19,7 +19,7 @@ class AboutRequest extends FormRequest
             'about_description' => ['nullable','string'],
             'about_image' => ['nullable','image', 'mimes:png,jpg,jpeg'],
             'director_image' => ['nullable','image', 'mimes:png,jpg,jpeg'],
-            'director_name' => ['required','string'],
+            'director_name' => ['nullable','string'],
             'director_email' => ['nullable','email'],
             'director_phone_number' => ['nullable'],
             'message' => ['nullable', 'string'],

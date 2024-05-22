@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('institute_phone')->nullable();
             $table->string('institute_email')->nullable();
             $table->string('institute_logo')->nullable();
-            $table->string('map_url')->nullable();
+            $table->longText('map_url')->nullable();
             $table->longText('description')->nullable();
             $table->string('facebook_url')->nullable();
             $table->string('twitter_url')->nullable();
