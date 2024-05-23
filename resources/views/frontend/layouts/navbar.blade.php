@@ -5,9 +5,9 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="menu">
-                    <a href="index.html" class="logo" ><img class="down"
-                        style="height:200px; width:500px;" src="{{ asset('assets/frontend/images/logo-bg.png') }}" alt=""> <img class="main_sticky" style="height:200px; width:500px;"
-                            src="{{ asset('assets/frontend/images/logo-bg.png') }}" alt=""></a>
+                    <a href="{{ route('index') }}" class="logo" ><img class="down"
+                        src="{{ officeSetting()->institute_logo ??'' }}" alt=""> <img class="main_sticky"
+                            src="{{ officeSetting()->institute_logo ??'' }}" alt=""></a>
 
 
                     <ul class="clearfix">
