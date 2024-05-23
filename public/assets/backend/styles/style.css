@@ -1352,7 +1352,8 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 .brand-logo a .svg{
 	max-width: 180px;
 	display: block;
-	height: auto;
+	height: 10px;
+    margin-top: 10px;
 }
 .left-side-bar{
 	position: fixed;

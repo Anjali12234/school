@@ -1,12 +1,6 @@
-  <!-- Loder Start-->
-    {{-- <div class="loader-wrapper">
-	  <div class="loader"></div>
-	  <div class="loder-section left-section"></div>
-	  <div class="loder-section right-section"></div>
-	</div> --}}
-    <!-- Loder End -->
+  
 
-   
+
     <div class="header_top_menu pt-2 pb-2 bg_color">
         <div class="container">
             <div class="row">

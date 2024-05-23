@@ -1,9 +1,4 @@
-/*===============================================
 
-Template Name: techno - IT Solutions & Services HTML5 Template
-Version: 0.1
-
-================================================*/
 
 /*TABLE OF CONTENTS*/
 /*=====================
@@ -40,6 +35,10 @@ Version: 0.1
 =======================*/
 /*logo*/
 
+/* .header-introduction{
+    font-size: medium;
+    color: ;
+} */
 .sticky img.down {
     display: none;
 }
@@ -60,8 +59,9 @@ img.main_sticky {
     z-index: 1;
 }
 .menu img {
-    max-width: 100%;
-    height: 100px;
+    max-width: 100px;
+    height: 80px;
+    padding: 10px;
 }
 .menu-mobile {
     display: none;

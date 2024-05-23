@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Passion Education and Visa Consultancy</title>
+    <title>Siddhartha Vidya Sadan</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -48,7 +48,7 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}" type="text/css" media="all" />
     <!-- modernizr js -->
     <script type="text/javascript" src="{{ asset('assets/frontend/js/vendor/modernizr-3.5.0.min.js') }}"></script>
-    <style>
+    {{-- <style>
         .parallax {
             position: relative;
             overflow: hidden;
@@ -70,7 +70,7 @@
             transform: scale(1.1);
             transition: transform 0.3s ease;
         }
-    </style>
+    </style> --}}
 </head>
 
 <body>

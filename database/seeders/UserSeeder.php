@@ -10,10 +10,13 @@ class UserSeeder extends Seeder
 {
     public function run(): void
     {
-        User::create([
-            'email' => 'admin@admin.com',
-            'password' => bcrypt('password'),
-            'name' => 'superadmin'
-        ]);
+
+        if (!User::where('email', 'admin@admin.com')->exists()) {
+            User::create([
+                'email' => 'admin@admin.com',
+                'password' => bcrypt('password'),
+                'name' => 'superadmin'
+            ]);
+        }
     }
 }

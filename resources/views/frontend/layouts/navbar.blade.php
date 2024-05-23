@@ -5,9 +5,11 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="menu">
-                    <a href="index.html" class="logo"><img class="down"
-                            src="{{ officeSetting()->institute_logo ?? '' }}" alt=""> <img class="main_sticky"
-                            src="{{ officeSetting()->institute_logo ?? '' }}" alt=""></a>
+                    <a href="index.html" class="logo" ><img class="down"
+                        style="height:200px; width:500px;" src="{{ asset('assets/frontend/images/logo-bg.png') }}" alt=""> <img class="main_sticky" style="height:200px; width:500px;"
+                            src="{{ asset('assets/frontend/images/logo-bg.png') }}" alt=""></a>
+
+
                     <ul class="clearfix">
                         <li><a href="{{ route('index') }}">Home</a>
                         </li>
@@ -20,8 +22,8 @@
                         <li><a href="{{ route('gallery')}}">Gallery</a>
                         </li>
                         <li><a href="{{ route('team') }}">Team</a>
-                        {{-- <li><a href="{{route('contact')}}">Contact</a>
-                        </li> --}}
+                        <li><a href="#contact_form">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +44,8 @@
                     <li><a href="{{ route('gallery')}}">Gallery</a>
                     </li>
                     <li><a href="{{ route('team') }}">Team</a>
-
+                        <li><a href="#contact_form">Contact Us</a>
+                        </li>
                 </ul>
             </nav>
         </div>

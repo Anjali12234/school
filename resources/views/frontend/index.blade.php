@@ -1,6 +1,13 @@
 @extends('frontend.layouts.master')
 
 @section('container')
+ <!-- Loder Start-->
+ <div class="loader-wrapper">
+    <div class="loader"></div>
+    <div class="loder-section left-section"></div>
+    <div class="loder-section right-section"></div>
+  </div>
+  <!-- Loder End -->
 
     <!-- Modal popup notice -->
     @if ($popups->count() > 0)
@@ -506,7 +513,7 @@
 
     <div>
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.900776399405!2d81.61486877520613!3d28.05805410993661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3998673ceeddca47%3A0xe233f036b64b3dd4!2sPassion%20Education%20And%20Visa%20Service!5e0!3m2!1sen!2snp!4v1704877821236!5m2!1sen!2snp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.869680235719!2d81.63715527514533!3d28.059003475982713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3998679467678b43%3A0xecf4759bb1a1130c!2sSiddhartha%20vidya%20sadan%20secondary%20school!5e0!3m2!1sen!2snp!4v1716451737901!5m2!1sen!2snp"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>

@@ -4,7 +4,7 @@
 <head>
     <!-- Basic Page Info -->
     <meta charset="utf-8" />
-    <title>Passion Institute</title>
+    <title>Siddhartha Vidya Sadan</title>
 
     <!-- Site favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ officeSetting()->institute_logo ?? '' }}" />
@@ -20,8 +20,6 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/vendors/styles/core.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/vendors/styles/icon-font.min.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/src/plugins/datatables/css/dataTables.bootstrap4.min.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/src/plugins/datatables/css/responsive.bootstrap4.min.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/backend/vendors/styles/style.css')}}" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -73,17 +71,9 @@
     <script src="{{ asset('assets/backend/vendors/scripts/script.min.js')}}"></script>
     <script src="{{ asset('assets/backend/vendors/scripts/process.js')}}"></script>
     <script src="{{ asset('assets/backend/vendors/scripts/layout-settings.js')}}"></script>
-    <script src="{{ asset('assets/backend/src/plugins/apexcharts/apexcharts.min.js')}}"></script>
-    <script src="{{ asset('assets/backend/src/plugins/datatables/js/jquery.dataTables.min.js')}}"></script>
-    <script src="{{ asset('assets/backend/src/plugins/datatables/js/dataTables.bootstrap4.min.js')}}"></script>
-    <script src="{{ asset('assets/backend/src/plugins/datatables/js/dataTables.responsive.min.js')}}"></script>
-    <script src="{{ asset('assets/backend/src/plugins/datatables/js/responsive.bootstrap4.min.js')}}"></script>
     <script src="{{ asset('assets/backend/vendors/scripts/dashboard3.js')}}"></script>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXZMQSS" height="0" width="0"
-            style="display: none; visibility: hidden"></iframe></noscript>
+
 </body>
 
 </html>
 
-<!-- js -->

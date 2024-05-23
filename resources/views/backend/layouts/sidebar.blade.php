@@ -1,14 +1,14 @@
 <div class="left-side-bar">
     <div class="brand-logo">
         <a href="{{ route('admin.dashboard') }}">
-            <img src="{{ officeSetting()->institute_logo ??'' }}" alt="" class="dark-logo" />
-            <img src="{{ officeSetting()->institute_logo ??''}}" alt="" class="light-logo" />
+            <img src="{{ officeSetting()->institute_logo ??'' }}" alt="" class="dark-logo" style="height: 100px; margin-top:50px; margin-left:30px" />
+            <img src="{{ officeSetting()->institute_logo ??''}}" alt="" class="light-logo" style="height: 100px; margin-top:50px; margin-left:30px" />
         </a>
         <div class="close-sidebar" data-toggle="left-sidebar-close">
             <i class="ion-close-round"></i>
         </div>
     </div>
-    <div class="menu-block customscroll">
+    <div class="menu-block customscroll mt-4">
         <div class="sidebar-menu">
             <ul id="accordion-menu">
                 <li class="dropdown">
